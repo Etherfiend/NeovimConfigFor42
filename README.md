@@ -54,6 +54,7 @@ git clone https://github.com/wbthomason/packer.nvim.git \
     ~/.var/app/io.neovim.nvim/config/nvim/pack/packer/start/packer.nvim/lua/packer
 ```
 3 - restart neovim and run `:PackerSync` to ensure it is installed.
+
 4 - run `:checkhealth` to check the plugin status.
 
 ## Sources
