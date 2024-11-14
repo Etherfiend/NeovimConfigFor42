@@ -17,23 +17,13 @@ bash
 echo "alias vim='flatpak run io.neovim.nvim'" >> ~/.bashrc && source ~/.bashrc
 ```
 
-## Plugins
-
-Your Neovim experience greatly depends on your configuration, which is the primary focus of this guide. You can enhance your setup with various plugins. While you can add almost any plugin, there are some essentials we will cover in this guide.
-
-- Fast and efficient development environment
-- Integration of essential plugins
-- Syntax highlighting and automatic closing
-
-You can find the complete list of plugins [here]().
-
 ## Plugin & Manager Installation
 
 As mentioned, there are some essential plugins that we will use for the default configuration in this guide.
 
-1 - if you don't have `config/nvim` directory, create one.
+- if you don't have `config/nvim` directory, create one.
 
-2 - clone this repository's config file into:
+- clone this repository's config file into:
 ```
 git clone https://github.com/Etherfiend/NeovimConfigFor42/nvim tmp_nvim && \
 mv tmp_nvim .var/app/io.neovim.nvim/config/nvim && rm -rf tmp_nvim
@@ -44,18 +34,28 @@ We'll use [Packer.nvim](https://github.com/wbthomason/packer.nvim) for managing 
 
 **packer.nvim**
 
-1 - create a directory for packer
+- create a directory for packer
 ```
 mkdir -p ~/.config/nvim/pack/packer/start/
 ```
-2 - clone packer.nvim repository to your into that directory:
+- clone packer.nvim repository to your into that directory:
 ```
 git clone https://github.com/wbthomason/packer.nvim.git \
     ~/.var/app/io.neovim.nvim/config/nvim/pack/packer/start/packer.nvim/lua/packer
 ```
-3 - restart neovim and run `:PackerSync` to ensure it is installed.
 
-4 - run `:checkhealth` to check the plugin status.
+**Plugins - Settings**
+
+
+1 - clone this repository:
+```
+
+```
+2 - restart neovim and run `:PackerSync` to ensure it is installed.
+
+3 - run `:checkhealth` to check the plugin status.
+
+You can also modify setup or init file/files according to your needs. Plugins are essential parts of your neovim experience, feel free to configure them; they won't bite.
 
 ## Sources
 
