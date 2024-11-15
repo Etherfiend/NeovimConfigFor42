@@ -3,7 +3,7 @@
 If you want to use Neovim at 42, there are some installation issues you might encounter, but don't worry—solutions are available. Below is a step-by-step installation guide for new UbuntuOS.
 
 ## Preview 
-<img src="preview.png" alt="first" width="auto" height="auto"> 
+<img src="https://i.imgur.com/XvQddx6.png" alt="first" width="auto" height="auto"> 
 
 ## Getting Started
 
@@ -34,10 +34,6 @@ git clone https://github.com/Etherfiend/NeovimConfigFor42/nvim tmp_nvim && \
 mv tmp_nvim .var/app/io.neovim.nvim/config/nvim && rm -rf tmp_nvim
 ```
 
-![alt text](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fmonthly-meme-thread-v0-t7csjjerm1gd1.jpeg)
-
-
-
 We'll use [Packer.nvim](github.com/wbthomason/packer.nvim/tree/master/lua/packer) for managing plugins. While you can use other plugin managers (like Lazy.nvim), this guide focuses on Packer.nvim. As you know we have limited acces and can't reach sudo password. So you need to install Packer.nvim manually.As mentioned, 
 
 **packer.nvim**
@@ -54,6 +50,7 @@ git clone https://github.com/wbthomason/packer.nvim.git \
 
 **Plugins - Settings**
 
+<img src="https://i.imgur.com/mHPGTAS.png" alt="first" width="300" height="auto"> 
 
 1 - clone this repository:
 ```
