@@ -1,9 +1,8 @@
 # Neovim Configuration Introduce
 
-If you want to use Neovim at 42, there are some installation issues you might encounter, but don't worry—solutions are available. Below is a step-by-step installation guide for new UbuntuOS. 
+If you want to use Neovim at 42, there are some installation issues you might encounter, but don't worry—solutions are available. Below is a step-by-step installation guide for new UbuntuOS.
 
 <img src="preview.png" alt="first" width="auto" height="auto"> 
-_Color theme: rebelot/kanagawa.nvim_
 
 ## Start
 
@@ -22,7 +21,9 @@ echo "alias vim='flatpak run io.neovim.nvim'" >> ~/.bashrc && source ~/.bashrc
 
 ## Plugin & Manager Installation
 
-As mentioned, there are some essential plugins that we will use for the default configuration in this guide.
+⚠️This plugins and manager installation cost you at least 1.1GB space⚠️
+
+There are some essential plugins that we will use for the default configuration in this guide.
 
 - if you don't have `config/nvim` directory, create one.
 
@@ -33,7 +34,7 @@ mv tmp_nvim .var/app/io.neovim.nvim/config/nvim && rm -rf tmp_nvim
 ```
 
 
-We'll use [Packer.nvim](github.com/wbthomason/packer.nvim/tree/master/lua/packer) for managing plugins. While you can use other plugin managers (like Lazy.nvim), this guide focuses on Packer.nvim. As you know we have limited acces and can't reach sudo password. So you need to install Packer.nvim manually.
+We'll use [Packer.nvim](github.com/wbthomason/packer.nvim/tree/master/lua/packer) for managing plugins. While you can use other plugin managers (like Lazy.nvim), this guide focuses on Packer.nvim. As you know we have limited acces and can't reach sudo password. So you need to install Packer.nvim manually.As mentioned, 
 
 **packer.nvim**
 
@@ -54,7 +55,7 @@ git clone https://github.com/wbthomason/packer.nvim.git \
 ```
 
 ```
-2 - restart neovim and run `:PackerSync` to ensure it is installed.
+2 - restart neovim and run `:PackerSync` to install/update.
 
 3 - run `:checkhealth` to check the plugin status.
 
@@ -72,6 +73,9 @@ vim.env.PATH = "/home/your-username/bin:" .. vim.env.PATH
 
 ### nvim.tree icons
 After installing nvim-tree, you may notice that the file tree doesn't display icons properly at first. To fix this, you need to install a [NerdFont](https://www.nerdfonts.com/). However, you can also customize and set your own symbols/characters for the file tree if you prefer.
+
+### mason
+mason is a lsp-formatter
 
 
 ## Sources
