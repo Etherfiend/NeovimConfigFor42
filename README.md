@@ -2,7 +2,10 @@
 
 If you want to use Neovim at 42, there are some installation issues you might encounter, but don't worry—solutions are available. Below is a step-by-step installation guide for new UbuntuOS.
 
-![](preview.png)
+![asdasd](preview.png)
+![asdasd](preview0.png)
+_Color theme: rebelot/kanagawa.nvim_
+
 
 ## Start
 
