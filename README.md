@@ -1,10 +1,9 @@
 # Neovim Configuration Introduce
 
-If you want to use Neovim at 42, there are some installation issues you might encounter, but don't worry—solutions are available. Below is a step-by-step installation guide for new UbuntuOS.
+If you want to use Neovim at 42, there are some installation issues you might encounter, but don't worry—solutions are available. Below is a step-by-step installation guide for new UbuntuOS. 
 
 <img src="preview.png" alt="first" width="auto" height="auto"> 
 _Color theme: rebelot/kanagawa.nvim_
-
 
 ## Start
 
@@ -60,6 +59,20 @@ git clone https://github.com/wbthomason/packer.nvim.git \
 3 - run `:checkhealth` to check the plugin status.
 
 You can also modify setup or init file/files according to your needs. Plugins are essential parts of your neovim experience, feel free to configure them; they won't bite.
+
+## Common Issues
+
+### livegrep
+Telescope uses ripgrep(or its alternative) for live_grep function that allows you search/find proccesses within files. You need to install [ripgrep](https://github.com/BurntSushi/ripgrep) to your system to use this feature.
+- move the executable to `home/your-username/bin`
+- modify related line in init.lua as follows:
+```
+vim.env.PATH = "/home/your-username/bin:" .. vim.env.PATH
+```
+
+### nvim.tree icons
+After installing nvim-tree, you may notice that the file tree doesn't display icons properly at first. To fix this, you need to install a [NerdFont](https://www.nerdfonts.com/). However, you can also customize and set your own symbols/characters for the file tree if you prefer.
+
 
 ## Sources
 
