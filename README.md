@@ -32,7 +32,7 @@ mv tmp_nvim .var/app/io.neovim.nvim/config/nvim && rm -rf tmp_nvim
 ```
 
 
-We'll use [Packer.nvim](https://github.com/wbthomason/packer.nvim) for managing plugins. While you can use other plugin managers (like Lazy.nvim), this guide focuses on Packer.nvim. As you know we have limited acces and can't reach sudo password. So you need to install Packer.nvim manually.
+We'll use [Packer.nvim](github.com/wbthomason/packer.nvim/tree/master/lua/packer) for managing plugins. While you can use other plugin managers (like Lazy.nvim), this guide focuses on Packer.nvim. As you know we have limited acces and can't reach sudo password. So you need to install Packer.nvim manually.
 
 **packer.nvim**
 
