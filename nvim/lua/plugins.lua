@@ -144,8 +144,8 @@ cmp.setup({
             require('42header').setup {  
                 default_map = true,     
                 auto_update = false,      
-                user = "muokcan",       
-                mail = "muokcan@student.42.fr", 
+                user = "~",       
+                mail = "~@student.42.fr", 
             }
         end,
     }
