@@ -75,20 +75,37 @@ After installing nvim-tree, you may notice that the file tree doesn't display ic
 
 ## Notes
 
-1 - If you want to improve your editor experience beyond the default setup in this guide, you need to understand what Mason and Packer.nvim are, and how they work. Visit their GitHub pages for more information and detailed usage instructions.
-
-2 - 
+- If you want to improve your editor experience beyond the default setup in this guide, you need to understand what Mason and Packer.nvim are, and how they work. Visit their GitHub pages for more information and detailed usage instructions. 
 
 ## Sources
 
 - **wbthomason/packer.nvim**: [GitHub](https://github.com/wbthomason/packer.nvim) _- Plugin manager_
-- **morhetz/gruvbox**: [GitHub](https://github.com/morhetz/gruvbox) _- Color theme_
-- **nvim-tree/nvim-tree.lua**: [GitHub](https://github.com/nvim-tree/nvim-tree.lua) _- File explorer tree_
-- **nvim-tree/nvim-web-devicons**: [GitHub](https://github.com/nvim-tree/nvim-web-devicons) _- File type icons_
-- **neovim/nvim-lspconfig**: [GitHub](https://github.com/neovim/nvim-lspconfig) _- LSP configuration_
-- **windwp/nvim-autopairs**: [GitHub](https://github.com/windwp/nvim-autopairs) _- Automatic closing of brackets and parentheses_
-- **nvim-treesitter/nvim-treesitter**: [GitHub](https://github.com/nvim-treesitter/nvim-treesitter) _- Syntax highlighter_
+- **rebelot/kanagawa.nvim**: [GitHub](https://github.com/rebelot/kanagawa.nvim) _- Color theme_
+- **kyazdani42/nvim-tree.lua**: [GitHub](https://github.com/kyazdani42/nvim-tree.lua) _- File explorer tree_
+- **kyazdani42/nvim-web-devicons**: [GitHub](https://github.com/kyazdani42/nvim-web-devicons) _- File type icons_
 - **nvim-lualine/lualine.nvim**: [GitHub](https://github.com/nvim-lualine/lualine.nvim) _- Status line_
+- **nvim-treesitter/nvim-treesitter**: [GitHub](https://github.com/nvim-treesitter/nvim-treesitter) _- Syntax highlighter_
+- **windwp/nvim-autopairs**: [GitHub](https://github.com/windwp/nvim-autopairs) _- Automatic closing of brackets and parentheses_
+- **neovim/nvim-lspconfig**: [GitHub](https://github.com/neovim/nvim-lspconfig) _- LSP configuration_
+- **hrsh7th/nvim-cmp**: [GitHub](https://github.com/hrsh7th/nvim-cmp) _- Completion plugin_
+- **hrsh7th/cmp-buffer**: [GitHub](https://github.com/hrsh7th/cmp-buffer) _- Buffer completion source for nvim-cmp_
+- **hrsh7th/cmp-nvim-lsp**: [GitHub](https://github.com/hrsh7th/cmp-nvim-lsp) _- LSP source for nvim-cmp_
+- **quangnguyen30192/cmp-nvim-ultisnips**: [GitHub](https://github.com/quangnguyen30192/cmp-nvim-ultisnips) _- UltiSnips source for nvim-cmp_
+- **hrsh7th/cmp-nvim-lua**: [GitHub](https://github.com/hrsh7th/cmp-nvim-lua) _- Lua source for nvim-cmp_
+- **octaltree/cmp-look**: [GitHub](https://github.com/octaltree/cmp-look) _- Look-up source for nvim-cmp_
+- **hrsh7th/cmp-path**: [GitHub](https://github.com/hrsh7th/cmp-path) _- Path completion source for nvim-cmp_
+- **hrsh7th/cmp-calc**: [GitHub](https://github.com/hrsh7th/cmp-calc) _- Calculator source for nvim-cmp_
+- **f3fora/cmp-spell**: [GitHub](https://github.com/f3fora/cmp-spell) _- Spell completion source for nvim-cmp_
+- **hrsh7th/cmp-emoji**: [GitHub](https://github.com/hrsh7th/cmp-emoji) _- Emoji completion source for nvim-cmp_
+- **tzachar/cmp-tabnine**: [GitHub](https://github.com/tzachar/cmp-tabnine) _- AI-based code completion for nvim-cmp_
+- **hrsh7th/vim-vsnip**: [GitHub](https://github.com/hrsh7th/vim-vsnip) _- Snippet plugin_
+- **hrsh7th/vim-vsnip-integ**: [GitHub](https://github.com/hrsh7th/vim-vsnip-integ) _- Integration with nvim-cmp_
+- **romgrk/barbar.nvim**: [GitHub](https://github.com/romgrk/barbar.nvim) _- Tabline plugin_
+- **akinsho/bufferline.nvim**: [GitHub](https://github.com/akinsho/bufferline.nvim) _- Bufferline plugin_
+- **nvim-telescope/telescope.nvim**: [GitHub](https://github.com/nvim-telescope/telescope.nvim) _- Fuzzy finder plugin_
+- **nvim-lua/plenary.nvim**: [GitHub](https://github.com/nvim-lua/plenary.nvim) _- Lua functions used by many Neovim plugins_
+- **Diogo-ss/42-header.nvim**: [GitHub](https://github.com/Diogo-ss/42-header.nvim) _- Add 42 header to C files_
+- **hardyrafael17/norminette42.nvim**: [GitHub](https://github.com/hardyrafael17/norminette42.nvim) _- Norminette plugin for 42 coding standard checks_
 
 For the complete list of features and functionalities of these plugins, please visit their GitHub repositories.
 
