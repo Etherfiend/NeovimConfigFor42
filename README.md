@@ -1,6 +1,6 @@
 # Neovim Configuration Introduce
 
-If you want to use Neovim at 42, there are some installation issues you might encounter, but don't worry—solutions are available. Below is a step-by-step installation guide for new UbuntuOS.
+If you want to use Neovim at 42, there are some installation issues you might encounter, but don't worry—solutions are available. Below is a step-by-step Neovim configuration guide for 42's new Ubuntu system.
 
 ## Preview 
 <img src="https://i.imgur.com/XvQddx6.png" alt="first" width="auto" height="auto"> 
@@ -20,13 +20,24 @@ bash
 echo "alias vim='flatpak run io.neovim.nvim'" >> ~/.bashrc && source ~/.bashrc
 ```
 
+**Plugins - Settings**
+
+<img src="https://i.imgur.com/mHPGTAS.png" alt="first" width="300" height="auto"> 
+
+
+- clone this repository into:
+```
+git clone https://github.com/Etherfiend/NeovimConfigFor42/tree/main/nvim \
+    ~/.var/app/io.neovim.nvim/config
+```
+
+You can also modify setup or init file/files according to your needs. Plugins are essential parts of your neovim experience, feel free to configure them; they won't bite.
+
 ## Plugin & Manager Installation
 
 ⚠️These plugins and manager require at least free 1.1GB space⚠️
 
 There are some essential plugins that we will use for the default configuration in this guide.
-
-- if you don't have `config/nvim` directory, create one.
 
 - clone this repository's config file into:
 ```
@@ -48,20 +59,6 @@ git clone https://github.com/wbthomason/packer.nvim.git \
     ~/.var/app/io.neovim.nvim/config/nvim/pack/packer/start/packer.nvim/lua/packer
 ```
 
-**Plugins - Settings**
-
-<img src="https://i.imgur.com/mHPGTAS.png" alt="first" width="300" height="auto"> 
-
-1 - clone this repository:
-```
-git clone https://github.com/Etherfiend/NeovimConfigFor42/tree/main/nvim \
-    ~/.var/app/io.neovim.nvim/config
-```
-2 - restart neovim and run `:PackerSync` to install/update.
-
-3 - run `:checkhealth` to check the plugin status.
-
-You can also modify setup or init file/files according to your needs. Plugins are essential parts of your neovim experience, feel free to configure them; they won't bite.
 
 ## Common Issues
 
