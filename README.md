@@ -1,4 +1,4 @@
-# Neovim Configuration For 42
+# Neovim Configuration Guide For 42
 
 If you want to use Neovim at 42, there are some installation issues you might encounter, but don't worry—solutions are available. Below is a step-by-step Neovim configuration guide for 42's new Ubuntu system.
 
