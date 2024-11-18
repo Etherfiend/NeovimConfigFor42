@@ -8,5 +8,5 @@
   require('treesitter_configs')
   require('lsp_config')
   require('barbar_setup')
-  vim.env.PATH = "/home/muokcan/bin:" .. vim.env.PATH
+  vim.env.PATH = "/home/your~username/bin:" .. vim.env.PATH
 
