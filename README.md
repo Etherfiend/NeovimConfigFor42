@@ -54,7 +54,8 @@ git clone https://github.com/wbthomason/packer.nvim.git \
 
 1 - clone this repository:
 ```
-
+git clone https://github.com/Etherfiend/NeovimConfigFor42/tree/main/nvim \
+    ~/.var/app/io.neovim.nvim/config
 ```
 2 - restart neovim and run `:PackerSync` to install/update.
 
