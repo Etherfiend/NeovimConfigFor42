@@ -24,6 +24,7 @@ echo "alias vim='flatpak run io.neovim.nvim'" >> ~/.bashrc && source ~/.bashrc
 
 <img src="https://i.imgur.com/mHPGTAS.png" alt="first" width="300" height="auto"> 
 
+⚠️These plugins and manager require at least free 1.1GB space⚠️
 
 - clone this repository into:
 ```
@@ -34,8 +35,6 @@ git clone https://github.com/Etherfiend/NeovimConfigFor42/tree/main/nvim \
 You can also modify setup or init file/files according to your needs. Plugins are essential parts of your neovim experience, feel free to configure them; they won't bite.
 
 ## Plugin & Manager Installation
-
-⚠️These plugins and manager require at least free 1.1GB space⚠️
 
 There are some essential plugins that we will use for the default configuration in this guide.
 
