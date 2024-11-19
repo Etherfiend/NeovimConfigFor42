@@ -35,7 +35,7 @@ There are some essential plugins that we will use for the default configuration 
 - clone this repository into:
 ```
 git clone https://github.com/Etherfiend/NeovimConfigFor42.git \
-    ~/.var/app/io.neovim.nvim/config/
+    ~/.var/app/io.neovim.nvim/config/nvim
 ```
 
 You can also modify setup or init file/files according to your needs. Plugins are essential parts of your neovim experience, feel free to configure them; they won't bite.
