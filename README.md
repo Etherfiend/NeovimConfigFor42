@@ -30,8 +30,8 @@ echo "alias vim='flatpak run io.neovim.nvim'" >> ~/.bashrc && source ~/.bashrc
 
 - clone this repository into:
 ```
-git clone https://github.com/Etherfiend/NeovimConfigFor42/tree/main/nvim \
-    ~/.var/app/io.neovim.nvim/config
+git clone https://github.com/Etherfiend/NeovimConfigFor42.git \
+    ~/.var/app/io.neovim.nvim/config/nvim
 ```
 
 You can also modify setup or init file/files according to your needs. Plugins are essential parts of your neovim experience, feel free to configure them; they won't bite.
