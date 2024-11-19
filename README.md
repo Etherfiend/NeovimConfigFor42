@@ -22,13 +22,15 @@ bash
 echo "alias vim='flatpak run io.neovim.nvim'" >> ~/.bashrc && source ~/.bashrc
 ```
 
-**Plugins - Settings**
+## Plugin & Manager Installation
 
 There are some essential plugins that we will use for the default configuration in this guide.
 
-<img src="https://i.imgur.com/mHPGTAS.png" alt="first" width="300" height="auto"> 
-
 ⚠️These plugins and manager require at least free 1.1GB space⚠️
+
+**plugins**
+
+<img src="https://i.imgur.com/mHPGTAS.png" alt="first" width="300" height="auto"> 
 
 - clone this repository into:
 ```
@@ -37,8 +39,6 @@ git clone https://github.com/Etherfiend/NeovimConfigFor42.git \
 ```
 
 You can also modify setup or init file/files according to your needs. Plugins are essential parts of your neovim experience, feel free to configure them; they won't bite.
-
-## Plugin & Manager Installation
 
 We'll use [Packer.nvim](https://github.com/wbthomason/packer.nvim/tree/master) for managing plugins. While you can use other plugin managers (like Lazy.nvim), this guide focuses on Packer.nvim. As you know we have limited acces and can't reach sudo password. So you need to install Packer.nvim manually.As mentioned, 
 
