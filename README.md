@@ -37,6 +37,7 @@ There are some essential plugins that we will use for the default configuration 
 git clone https://github.com/Etherfiend/NeovimConfigFor42.git \
     ~/.var/app/io.neovim.nvim/config/nvim
 ```
+- If there is no file named nvim, create one.
 
 You can also modify setup or init file/files according to your needs. Plugins are essential parts of your neovim experience, feel free to configure them; they won't bite.
 
@@ -45,8 +46,9 @@ You can also modify setup or init file/files according to your needs. Plugins ar
 We'll use [Packer.nvim](https://github.com/wbthomason/packer.nvim/tree/master) for managing plugins. While you can use other plugin managers (like Lazy.nvim), this guide focuses on Packer.nvim. As you know we have limited acces and can't reach sudo password. So you need to install Packer.nvim manually.
 
 clone packer.nvim repository to your into related directory:
+
 ```
-mkdir -p ~/.var/app/io.neovim.nvim/config/nvim/pack/packer/start/ \
+mkdir -p ~/.var/app/io.neovim.nvim/config/nvim/pack/packer/start/ && \
     git clone https://github.com/wbthomason/packer.nvim.git \
         ~/.var/app/io.neovim.nvim/config/nvim/pack/packer/start/packer.nvim
 ```
