@@ -37,7 +37,7 @@ There are some essential plugins that we will use for the default configuration 
 git clone https://github.com/Etherfiend/NeovimConfigFor42.git \
     ~/.var/app/io.neovim.nvim/config/nvim
 ```
-- If there is no file named nvim, create one.
+- If there is no directory named nvim, create one.
 
 You can also modify setup or init file/files according to your needs. Plugins are essential parts of your neovim experience, feel free to configure them; they won't bite.
 
