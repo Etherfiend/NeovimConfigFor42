@@ -92,9 +92,6 @@ use {'hrsh7th/vim-vsnip-integ'}
 local cmp = require'cmp'
 local lspconfig = require'lspconfig'
 
--- VSnip için ayar
--- vim.g.vsnip_snippet_dir = "~/.config/nvim/snippets"  -- Snippet dosyalarının bulunduğu dizin
-
 lspconfig.ts_ls.setup{
     on_attach = function(client, bufnr)
         local opts = { noremap=true, silent=true }
