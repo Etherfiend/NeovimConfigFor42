@@ -34,7 +34,7 @@ There are some essential plugins that we will use for the default configuration 
 
 - clone this repository into:
 ```
-git clone https://github.com/Etherfiend/NeovimConfigFor42.git \
+git clone https://github.com/w7h3r/NeovimConfigFor42.git \
     ~/.var/app/io.neovim.nvim/config/nvim
 ```
 - If there is no directory named nvim, create one.
